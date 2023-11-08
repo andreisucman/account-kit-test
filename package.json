@@ -1,0 +1,22 @@
+{
+  "name": "accountkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@alchemy/aa-accounts": "^0.2.0",
+    "@alchemy/aa-alchemy": "^0.2.0",
+    "@alchemy/aa-core": "^0.2.0",
+    "ethers": "^6.8.1",
+    "viem": "^1.18.9"
+  },
+  "scripts": {
+    "dev": "node index2.js",
+    "start": "node send.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
